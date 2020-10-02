@@ -116,5 +116,12 @@ public class LoginController {
        else
         return loginService.userslist(true);
     }
+    /*
+     This api used to list dummy
+      */
+    @GetMapping("/getmessage")
+    public ResponseEntity<String> getmessage(){
+            return new ResponseEntity<>("gopi",HttpStatus.OK);
+    }
 }
 
