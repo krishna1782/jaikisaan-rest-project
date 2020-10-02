@@ -116,5 +116,9 @@ public class LoginController {
        else
         return loginService.userslist(true);
     }
+    @GetMapping("/getmessage")
+    public ResponseEntity<String> getmessage(){
+            return new ResponseEntity<>("gopi",HttpStatus.OK);
+    }
 }
 
