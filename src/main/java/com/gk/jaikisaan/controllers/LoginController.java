@@ -123,7 +123,8 @@ public class LoginController {
     public ResponseEntity<String> getmessage(){
             return new ResponseEntity<>("gopi",HttpStatus.OK);
     }
-    This api used to list dummy
+    /*
+    This api used to list dummy 1
       */
     @GetMapping("/getmessage1")
     public ResponseEntity<String> getmessage1(){
